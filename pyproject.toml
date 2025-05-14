@@ -1,0 +1,28 @@
+[project]
+name = "EdgeWisePersona"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Patryk Bartkowiak, Michal Podstawski", email = "patryk.bartkowiak@tcl.com"},
+]
+dependencies = [
+    "openai",
+    "transformers",
+    "lm-format-enforcer",
+    "pydantic",
+    "torch",
+    "torchvision",
+    "numpy",
+    "pandas",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "CC-BY-4.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
