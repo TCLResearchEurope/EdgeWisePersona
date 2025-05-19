@@ -105,6 +105,22 @@ This dataset is released under the [Creative Commons Attribution 4.0 Internation
 
 ---
 
+## 📜 Citation
+
+```
+@misc{bartkowiak2025edgewisepersonadatasetondeviceuser,
+      title={EdgeWisePersona: A Dataset for On-Device User Profiling from Natural Language Interactions}, 
+      author={Patryk Bartkowiak and Michal Podstawski},
+      year={2025},
+      eprint={2505.11417},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2505.11417}, 
+}
+```
+
+---
+
 ## 📬 Contact
 
 For questions, suggestions, or collaborations:
