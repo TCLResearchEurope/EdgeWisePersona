@@ -92,6 +92,23 @@ More details on the benchmark protocol can be found in the paper.
 
 ---
 
+## 📊 Evaluation Results
+
+The performance of several language models was evaluated on the routine reconstruction benchmark using two core metrics:
+
+- Exact-match accuracy measures the proportion of routines that were predicted perfectly, reflecting a model’s ability to fully capture user behavior patterns.
+- Jaccard similarity evaluates partial overlap between predicted and ground-truth routines, providing a more forgiving view of model understanding.
+
+![Routines Accuracy](./images/routines_accuracy.png)
+
+Additionally, we break down performance into Triggers and Actions, which captures how well models detect the context (Trigger) and the corresponding smart home response (Action).
+
+![Triggers & Actions Accuracy](./images/triggers_actions_accuracy.png)
+
+Results reveal a significant performance gap between large foundation models and edge-deployable models, especially on exact-match accuracy and action inference. This highlights the current limitations of small models in understanding nuanced behavioral routines — and motivates future research on compact, personalized, on-device AI.
+
+---
+
 ## 🛠 Built With
 
 - [DeepSeek](https://github.com/deepseek-ai) – used for LLM-based session generation
