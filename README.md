@@ -68,6 +68,12 @@ dataset = load_dataset("TCLResearchEurope/EdgeWisePersona")
 
 ---
 
+## 📄 Dataset example
+
+![Dataset example](./images/dataset_example.png)
+
+---
+
 ## 📁 File Structure
 
 The dataset is distributed across three line-aligned `.jsonl` files:
